@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 
 import { Brand, CTA, NavBar } from './components'
-import { Blog, Footer, Header, Posibility, WhatGPT3 } from './containers';
+import { Blog, Features, Footer, Header, Posibility, WhatGPT3 } from './containers';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
        </div>
        <Brand />
        <WhatGPT3 />
+       <Features />
        <Posibility />
        <CTA />
        <Blog />
